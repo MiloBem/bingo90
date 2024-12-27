@@ -23,7 +23,7 @@ public class Main {
 	}
 
 	public static void usage() {
-		System.out.println("USAGE: mrq_milo OPTION N");
+		System.out.println("USAGE: java -jar MrMilo.jar OPTION N");
 		System.out.println("Options available:");
 		System.out.println("r : generate and print N strips");
 		System.out.println("s : silently generate N strips, print statistics per cell for debugging");

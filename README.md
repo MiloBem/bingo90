@@ -29,6 +29,8 @@ This will run all the tests and create an executable file `MrMilo.jar` in the ta
 When executed without additional parameters or with incorrect parameters,
 the tool generates and prints one strip and usage instructions.
 
+Example usage `java -jar target/MrMilo.jar r 3`
+
 ### Options
 
 - `r N` - generate and print N strips.
