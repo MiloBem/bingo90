@@ -7,12 +7,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
 
-class StripBuilderTest {
+class StripBuilderIT {
 
 	@Test
 	void smokeTest() {
 		try {
-			for (int i = 0; i < 10; ++i) {
+			for (int i = 0; i < 10000; ++i) {
 				List<String> validate = new StripBuilder().build().validate();
 				assertTrue(validate.isEmpty(), validate.toString());
 			}
