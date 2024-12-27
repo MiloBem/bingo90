@@ -14,6 +14,7 @@ public class Main {
 					time(Integer.parseInt(args[1]));
 					break;
 				default:
+					build(1);
 					usage();
 			}
 		} else {
